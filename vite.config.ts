@@ -14,7 +14,7 @@ export default defineConfig({
       fileName: (format) => `qiu233-zhan-ui.${format}.js`,
     },
     rollupOptions: {
-      external: ["vue"],
+      external: ["vue","echarts"],
       output: {
         globals: {
           vue: "Vue",

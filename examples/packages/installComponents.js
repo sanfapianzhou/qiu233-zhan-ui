@@ -1,7 +1,7 @@
 import AppMain from './appMain'
-
+import EchartsItem from './echarts'
 const components = [
-    AppMain
+    AppMain, EchartsItem
 ]
 
 const install = function (Vue) {
@@ -16,8 +16,13 @@ const install = function (Vue) {
     }
 }
 
+//单组件导出
 export {
+    AppMain, EchartsItem
+}
+//全部导出
+export default {
     install,
+    ...components
 
-    AppMain
 }
