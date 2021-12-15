@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import path from "path";
+import { resolve } from "path";
 
 
 export default defineConfig({
@@ -9,9 +9,9 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, "examples/packages/installComponents.js"),
-      name: "zhan-ui",
-      fileName: (format) => `zhan-ui.${format}.js`,
+      entry: resolve(__dirname, "examples/packages/installComponents.js"),
+      name: "qiu233-zhan-ui",
+      fileName: (format) => `qiu233-zhan-ui.${format}.js`,
     },
     rollupOptions: {
       external: ["vue"],

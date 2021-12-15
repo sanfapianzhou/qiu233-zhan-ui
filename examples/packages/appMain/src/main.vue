@@ -13,7 +13,7 @@
 
 <script lang="ts">
 export default {
-    name: "appMain",
+    name: "AppMain",
     props: {
         isFlexStart: {
             type: Boolean,

@@ -1,6 +1,6 @@
 {
-  "name": "@zhan233/zhan-ui",
-  "version": "0.0.4",
+  "name": "qiu233-zhan-ui",
+  "version": "0.0.3",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -8,16 +8,16 @@
     "preview": "vite preview"
   },
   "private": false,
-  "main": "./dist/zhan-ui.umd.js",
-  "module": "./dist/zhan-ui.es.js",
+  "main": "./dist/qiu233-zhan-ui.umd.js",
+  "module": "./dist/qiu233-zhan-ui.es.js",
   "files": [ "dist"],
   "exports": {
     ".": {
-      "import": "./dist/zhan-ui.es.js",
-      "require": "./dist/zhan-ui.umd.js"
-    }
+      "import": "./dist/qiu233-zhan-ui.es.js",
+      "require": "./dist/qiu233-zhan-ui.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
   },
-
   "dependencies": {
     "vue": "^3.2.25"
   },

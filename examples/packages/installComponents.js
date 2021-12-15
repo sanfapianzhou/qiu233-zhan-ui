@@ -16,7 +16,7 @@ const install = function (Vue) {
     }
 }
 
-export default {
+export {
     install,
 
     AppMain

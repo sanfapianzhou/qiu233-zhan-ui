@@ -6,7 +6,6 @@ import AppMain from "./packages/appMain";
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <app-main>
     <div>ddd</div>
